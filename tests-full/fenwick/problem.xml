@@ -1,0 +1,33 @@
+<!--================================================================-->
+<!-- ACM ICPC 2008-2009, NEERC                                      -->
+<!-- Northern Subregional Contest                                   -->
+<!-- St Petersburg, November 1, 2008                                -->
+<!--================================================================-->
+<!-- Problem F. Fenwick Tree                                        -->
+<!--                                                                -->
+<!-- Original idea         Roman Satukov                            -->
+<!-- Problem statement     Andrew Stankevich                        -->
+<!-- Testset               Andrew Stankevich                        -->
+<!--================================================================-->
+
+<problem
+    id      = "acm.neerc.2008.qf.fenwick"
+    version = "1.0"
+>
+    <judging>
+        <script type = "%icpc">
+            <testset
+                test-count   = "48"
+                input-href   = "tests/##"
+                answer-href  = "tests/##.a"
+                input-name   = "fenwick.in"
+                output-name  = "fenwick.out"
+                time-limit   = "3s"
+                memory-limit = "268435456"
+            />
+            <verifier type = "%testlib">
+                <binary executable-id = "x86.exe.win32" file = "check.exe" />
+            </verifier>
+        </script>
+    </judging>
+</problem>
